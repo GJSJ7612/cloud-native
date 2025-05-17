@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-alpine
+FROM openjdk:11-jre-slim
 LABEL maintainer=GJSJ
 ENV JAVA_ARGS="-Dfile.encoding=UTF8 -Duser.timezone=GMT+08"
 ENV JAR_FILE="user-service.jar"
